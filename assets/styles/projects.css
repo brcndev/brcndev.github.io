@@ -1,0 +1,56 @@
+.projects {
+    background-image: url(../img/icons/waves-thin-svgrepo-com.svg);
+    background-repeat: repeat;
+    background-size: .2%;   
+}
+
+.project-content {    
+    margin: 0 auto;
+    max-width:1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 50px; 
+    padding:60px;  
+}
+
+.project-content h1 {
+    grid-column: 1/-1;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.project-content img {
+    width: 300px;
+    height: 150px;
+}
+
+
+.projeto1 {    
+    align-items: center;
+    display: flex;
+    gap: 20px; 
+    grid-column: 1/-1;
+}
+
+.projeto2 { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;          
+    grid-column: 2/-1;
+    align-items: center;
+    gap: 20px;
+}
+
+.projeto-detalhe1 {    
+    width: 430px;
+    text-align: right;    
+}
+
+.projeto-detalhe a, .projeto-detalhe1 a {
+    font-weight: bold;
+}
+
+.projeto1 p, .projeto2 p {
+    margin: 10px 0px;
+    max-width: 430px;
+}

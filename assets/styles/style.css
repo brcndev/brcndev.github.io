@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import "./header.css";
+@import "./main.css";
+@import "./about.css";
+@import "./projects.css";
+
+/*Cor*/
+
+:root {
+  --cor-p: rgb(79, 188, 141);
+}
+
+.cor-p {
+  color: var(--cor-p); 
+}
+
+/*Main*/
+
+.js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+  }
+.js .fadeInUp {
+    transform: translate3d(0, 20px, 0);
+  }
+.js .fadeInRight {
+    transform: translate3d(20px, 0, 0);
+  }
+.js .fadeInLeft {
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+  }
+
+  [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+  }
+
+  [data-anime="top"] {
+    transform: translate3d(0,-50px, 0);
+  }
+
+.js [data-anime] {
+    opacity: 0;
+  }
+  
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 0.8s, opacity 0.8s;
+  }
+  
