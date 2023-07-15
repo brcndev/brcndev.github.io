@@ -4,8 +4,6 @@
     background-position: center center; 
 }
 
-
-
 .introduction {
     max-width: 1200px;
     padding: 80px 20px 150px 20px;
@@ -42,13 +40,13 @@
 
 .intro-content p {
     font-size: 1.2rem;
-    text-align: center;
-    letter-spacing: 2px;
+    text-align: center;    
+    letter-spacing: 1.2px;
     border-right: 4px solid;
     width: 21ch;
     white-space: nowrap;
     overflow: hidden;    
-    animation: typing 2.5s steps(26), blinking 0.5s
+    animation: typing 2.5s steps(22), blinking 0.5s
     infinite step-end alternate;
 }
 
@@ -57,7 +55,7 @@
         width: 0ch;
     }
     to {
-        width: 21ch;
+        width: 22ch;
     }
 }
 
