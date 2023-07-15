@@ -5,15 +5,14 @@
 }
 
 .introduction {
+    display: flex;
+    justify-content: center;
     max-width: 1200px;
-    padding: 80px 20px 150px 20px;
+    padding: 80px 0px 150px 20px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
     align-items: center;
 }
-
+/*
 .img {
     padding-top: 3rem;
     max-width: 300px;
@@ -25,28 +24,41 @@
     width: auto;
     border-radius: 50%;
 }
+*/
 
 .intro-content {
     color: white;
     display: flex;
     flex-direction: column;    
     align-items: center;
+    
+    max-width: max-content;
+}
+
+.intro-myself {
+    display: flex;
+    font-size: 2rem;
+    text-align: start;
 }
 
 .intro-content h1 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
     font-size: 4.4rem;
-    font-weight: 600;    
+    font-weight: 600;   
+    margin-bottom: 1.5rem;
+
 }
 
 .intro-content p {
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;    
-    letter-spacing: 1.2px;
+    letter-spacing: .5px;
     border-right: 4px solid;
     width: 21ch;
     white-space: nowrap;
     overflow: hidden;    
-    animation: typing 2.5s steps(22), blinking 0.5s
+    animation: typing 2.5s steps(23), blinking 0.5s
     infinite step-end alternate;
 }
 
@@ -69,17 +81,13 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top: 2rem;
-   
+    margin-top: 2rem;   
 }
 
-.intro-content .icons a {
-    
+.intro-content .icons a {    
     display: flex;
     max-width: 50px;
     max-height: 50px;
-    
-  
 }
 
 .intro-content img {
@@ -90,23 +98,19 @@
 @media screen and (max-width:1200px) {
     
 .introduction {
-    display: grid;    
-    grid-template-columns: 1fr;    
-    }
+   display: flex; 
+}
 
 .intro-content h1 {    
     font-size: 3rem;
     line-height: 1.1;
     text-align: center;
+    margin-bottom: 0px;
     }
 
 .intro-content p {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    }
-
-.img {
-    display: none;
+    margin-top: 15px;
+    font-size: 1.5rem;
 }
 }
 
@@ -117,7 +121,10 @@
     }
 
     .intro-content h1 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
+    }
+    .intro-myself, .intro-content p {
+        font-size: 1rem;
     }
 
     .intro-content p {
