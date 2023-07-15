@@ -1,8 +1,9 @@
 .bg {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(/assets/img/fundo.gif);
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(/assets/img/gifs-de-tecnologia-2.gif);
     background-size: cover;
     background-position: center center; 
 }
+
 
 
 .introduction {
@@ -36,16 +37,15 @@
 
 .intro-content h1 {
     font-size: 4.4rem;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 .intro-content p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     border-right: 4px solid;
-    width: 26ch;
+    width: 21ch;
     white-space: nowrap;
     overflow: hidden;    
     animation: typing 2.5s steps(26), blinking 0.5s
@@ -57,7 +57,7 @@
         width: 0ch;
     }
     to {
-        width: 26ch;
+        width: 21ch;
     }
 }
 
@@ -68,12 +68,20 @@
 }
 
 .intro-content .icons {
-    margin-top: 2rem;
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin-top: 2rem;
+   
+}
+
+.intro-content .icons a {
+    
+    display: flex;
     max-width: 50px;
     max-height: 50px;
+    
+  
 }
 
 .intro-content img {
@@ -107,7 +115,7 @@
 @media screen and (max-width:600px) {
 
     .introduction {
-        padding: 100px 25px 150px 25px;
+        padding: 100px 20px 150px 20px;
     }
 
     .intro-content h1 {

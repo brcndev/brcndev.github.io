@@ -75,10 +75,6 @@ h1, p, li {
         margin-bottom: 10px;
         padding: 10px 20px;
     }
-
-    .nav-list li:first-child {
-        display: none;
-    }
 }
 
 @media screen and (max-width:600px) {

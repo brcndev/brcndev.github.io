@@ -1,16 +1,13 @@
 .projects {
-    background-image: url(../img/icons/waves-thin-svgrepo-com.svg);
-    background-repeat: repeat;
-    background-size: .2%;   
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1))
 }
-
 .project-content {    
     margin: 0 auto;
     max-width:1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;  
     gap: 50px; 
-    padding:60px;  
+    padding:60px 60px 120px 60px;
 }
 
 .project-content h1 {
@@ -24,7 +21,6 @@
     width: 300px;
     height: 150px;
 }
-
 
 .projeto1 {    
     align-items: center;
@@ -53,4 +49,51 @@
 .projeto1 p, .projeto2 p {
     margin: 10px 0px;
     max-width: 430px;
+}
+
+@media screen and (max-width:1200px) {
+
+
+    .project-content {
+       display: flex;
+       flex-direction: column;
+       
+    }
+}
+
+@media screen and (max-width:900px) {
+    .project-content {
+        max-width: 900px;
+        padding: 30px 20px 100px 20px;
+    }
+
+    .projeto2 {
+        align-items: center;
+        display: flex;
+        gap: 20px; 
+        grid-column: 1/-1;
+    }
+}
+
+@media screen and (max-width:660px){
+
+
+    .projeto1, .projeto2 {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .projeto-detalhe, .projeto-detalhe1 {
+        text-align: center;
+        max-width: 400px;
+    }
+
+    .project-content img  {
+        display: none;
+    }
+
+    .project-content {
+        padding: 20px;
+        gap: 30px;
+    }
 }

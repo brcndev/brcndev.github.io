@@ -42,3 +42,13 @@ if (window.SimpleAnime) {
   }, 200));
 }
 
+
+const toTop = document.querySelector('.to-top');
+
+window.addEventListener("scroll", () => {
+  if(window.scrollY > 500) {
+    toTop.classList.add('active')
+  } else {
+    toTop.classList.remove('active')
+  }
+})

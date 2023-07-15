@@ -95,10 +95,8 @@
     text-align: center;
 }
 
-
-
 @media screen and (max-width:900px) {
-    
+
     .about h1, .formacao h2 {
         font-size: 2rem;
         margin-bottom: 15px;
@@ -136,15 +134,8 @@
         text-align: center;
     }
     
-
-
-
-    
-    
     .formacao {
         grid-template-columns:1fr;
         gap: 20px;    
     }
-
-
 }
