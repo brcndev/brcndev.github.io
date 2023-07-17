@@ -1,7 +1,4 @@
 
-.projects {
-    background: linear-gradient(rgba(17, 17, 17, 0.8) 0%, rgba(247, 245, 245, 0.8) 40%);
-}
 .project-content { 
     margin: 0 auto;
     max-width:1200px;
@@ -24,6 +21,9 @@
 }
 
 .projeto1 {    
+    padding: 30px;
+    border-radius: 8px;
+    background:linear-gradient(90deg ,rgba(222, 218, 218, 0.8), rgba(255, 255, 255, 0.8) 85%) ;
     align-items: center;
     display: flex;
     gap: 20px; 
@@ -31,8 +31,11 @@
 }
 
 .projeto2 { 
+    padding: 30px;
+    border-radius: 8px;
     display: grid;
-    grid-template-columns: 1fr 1fr;          
+    grid-template-columns: 1fr 1fr;    
+    background:linear-gradient(90deg ,rgba(255, 255, 255, 0.8) 0%, rgba(222, 218, 218, 0.8) 70%);      
     grid-column: 2/-1;
     align-items: center;
     gap: 20px;

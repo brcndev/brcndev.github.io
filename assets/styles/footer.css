@@ -21,6 +21,11 @@
 #contact img {
     max-width: 40px;
     max-height: 40px;
+    transition: .3s;
+}
+
+#contact img:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:900px) {

@@ -48,6 +48,10 @@ html {
     transform: translate3d(0,-50px, 0);
   }
 
+  [data-anime="bottom"] {
+    transform: translate3d(0,50px, 0);
+  }
+
 .js [data-anime] {
     opacity: 0;
   }

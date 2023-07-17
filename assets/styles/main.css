@@ -81,13 +81,17 @@
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top: 2rem;   
+    margin-top: 2rem;      
 }
 
 .intro-content .icons a {    
     display: flex;
     max-width: 50px;
     max-height: 50px;
+    transition: .3s;
+}
+.intro-content .icons a:hover  {
+    transform: scale(1.1);
 }
 
 .intro-content img {

@@ -12,14 +12,20 @@ h1, p, li {
     padding: 0;
 }
 
+
 .header h1 {
     margin-left: 60px;
     color:var(--cor-p);
     font-weight: 400;
     font-size: 1.7rem;
+    transition: all .5s;
 }
 
-.header h1 span:hover {
+.header h1:hover {
+    transform: scale(1.1);
+}
+
+.header h1 span{
     font-weight: 600;
 }
 
