@@ -42,7 +42,7 @@
 }
 
 .projeto-detalhe1 {    
-    width: 430px;
+    max-width: 420px;
     text-align: right;    
 }
 

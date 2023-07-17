@@ -55,10 +55,10 @@
     text-align: center;    
     letter-spacing: .5px;
     border-right: 4px solid;
-    width: 18ch;
+    width: 20ch;
     white-space: nowrap;
     overflow: hidden;    
-    animation: typing 2.5s steps(21), blinking 0.5s
+    animation: typing 2.5s steps(23), blinking 0.5s
     infinite step-end alternate;
 }
 
@@ -67,7 +67,7 @@
         width: 0ch;
     }
     to {
-        width: 20ch;
+        width: 22ch;
     }
 }
 
