@@ -5,6 +5,7 @@
 @import "./main.css";
 @import "./about.css";
 @import "./projects.css";
+@import "./footer.css";
 
 /*Cor*/
 
@@ -69,12 +70,12 @@ html {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    color: #1f1f1f;
+    color: var(--cor-p);
     text-decoration: none;
     opacity: 0;
     pointer-events: none;
     transition: all .4s;
-    transform: rotate(270deg);
+    
   }
 
   .to-top.active {

@@ -1,0 +1,35 @@
+#contact {
+    background-color: rgba(247, 245, 245, 0.8);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    gap: 10px;
+}
+
+.network  {
+    display: flex;
+    gap: 20px;
+}
+
+#contact h1 {   
+    font-size: 2.7rem;    
+}
+
+#contact img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+@media screen and (max-width:900px) {
+
+    #contact {
+        padding: 100px 0px 90px 0px;
+    }
+
+    #contact h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,6 +1,6 @@
 
 .projects {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(213, 202, 202, 0.8));
+    background: linear-gradient(rgba(17, 17, 17, 0.8) 0%, rgba(247, 245, 245, 0.8) 40%);
 }
 .project-content { 
     margin: 0 auto;
@@ -54,11 +54,8 @@
 
 @media screen and (max-width:1200px) {
 
-
     .project-content {
-       display: flex;
-       flex-direction: column;
-       
+            max-width: 1200px;
     }
 }
 
