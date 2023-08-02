@@ -57,8 +57,7 @@ const btnEng = document.getElementById('btnEng')
 const btnBr = document.getElementById('btnBr') 
 
 btnEng.addEventListener('click', function() {
- 
-  
+   
   let ulAbout = document.getElementById('ulAbout')
   let ulProjects = document.getElementById('ulProjects')
   let ulContact = document.getElementById('ulContact')
@@ -89,8 +88,7 @@ btnEng.addEventListener('click', function() {
   let HWP = document.getElementById('HWP');
 
   let footerTitle = document.getElementById('footerTitle');
-
-  
+ 
   
 /* Header */
   ulAbout.innerHTML = ('<a href="#about">About</a>');
@@ -120,44 +118,6 @@ btnEng.addEventListener('click', function() {
   GSP.innerHTML = ("Made using <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>, it generates passwords with uppercase letters, numbers and symbols. Developed in the SamuraiDEV course.");
 
   HWP.innerHTML = ("Fictitious website of hotels and resorts, it was developed with <strong>HTML</strong> and <strong>TailwindCSS</strong>");
-
+/* Footer */
   footerTitle.textContent = ("Contact me");
-
-
-
 });
-/*
-btnBr.addEventListener('click', function() {
-
-});
- /* 
-  let ulAbout = document.getElementById('ulAbout')
-  let ulProjects = document.getElementById('ulProjects')
-  let ulContact = document.getElementById('ulContact')
-
-  let introMyself = document.querySelector('.intro-myself');
-  let devFront = document.getElementById('devFront');
-
-  ulAbout.innerHTML = ('<a href="#about">Sobre</a>');
-  ulProjects.innerHTML = ('<a href="#projects">Projetos</a>');
-  ulContact.innerHTML = ('<a href="#about">Contato</a>');
-  introMyself.textContent = ('Olá, eu sou');
-  devFront.textContent = ('Desenvolvedor Front-End');  
-
-  
-  /* About */
-  
-  /*aboutH1.textContent = ('Sobre');
-  aboutH2.textContent = ('Guilherme Boracini, estudante de TI com foco em Desenvolvimento WEB.');
-  aboutP.textContent = ("Graduating in Systems Analysis and Development from VINCIT College, passionate about creating interactive and visually attractive websites. I'm constantly improving my coding skills, design principles and web development framework."); 
-/* Graduation */
-  /*gradH2.textContent = ("Graduation");
-  gradH3.textContent = ("Feb 2023 - May 2023");
-  gradP.textContent = ("Origamid - 46 Hours");
-
-  gradHh3.textContent = ('Oct 2022 - Studying');
-  gradHh4.textContent = ('Systems Analysis and Development')
-  gradPp.textContent = ('VINCIT College')
-})
-;
-*/
