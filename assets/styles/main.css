@@ -108,8 +108,12 @@
     font-size: 3rem;
     line-height: 1.1;
     text-align: center;
-    margin-bottom: 0px;
+    
     }
+
+.intro-content span {
+    margin-bottom: 20px;
+}
 
 .intro-content p {
     margin-top: 15px;
