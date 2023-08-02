@@ -57,7 +57,7 @@
     width: 24ch;
     white-space: nowrap;
     overflow: hidden;    
-    animation: typing 2.5s steps(22), blinking 0.5s
+    animation: typing 2.5s steps(21), blinking 0.5s
     infinite step-end alternate;
 }
 
@@ -66,7 +66,7 @@
         width: 0ch;
     }
     to {
-        width: 22ch;
+        width: 19ch;
     }
 }
 

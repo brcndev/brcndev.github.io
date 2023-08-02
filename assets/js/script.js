@@ -98,8 +98,6 @@ btnEng.addEventListener('click', function() {
   gradHh4.textContent = ('Systems Analysis and Development')
   gradPp.textContent = ('VINCIT College')
 
-
-
 });
 /*
 btnBr.addEventListener('click', function() {
