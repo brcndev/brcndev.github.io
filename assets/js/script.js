@@ -77,6 +77,20 @@ btnEng.addEventListener('click', function() {
   let gradHh3 = document.getElementById('gradHh3');
   let gradHh4 = document.getElementById('gradHh4');
   let gradPp = document.getElementById('gradPp');
+
+  let pH1 = document.getElementById('pH1');
+
+  let PPP = document.getElementById('PPP');
+
+  let BKP = document.getElementById('BKP');
+  
+  let GSP = document.getElementById('GSP');
+
+  let HWP = document.getElementById('HWP');
+
+  let footerTitle = document.getElementById('footerTitle');
+
+  
   
 /* Header */
   ulAbout.innerHTML = ('<a href="#about">About</a>');
@@ -87,16 +101,29 @@ btnEng.addEventListener('click', function() {
   devFront.textContent = (' Front-End Developer.'); 
 /* About */
   aboutH1.textContent = ('About me');
-  aboutH2.textContent = ('Guilherme Boracini, IT student focusing on WEB Development.');
-  aboutP.textContent = ("Graduating in Systems Analysis and Development from VINCIT College, passionate about creating interactive and visually attractive websites. I'm constantly improving my coding skills, design principles and web development framework."); 
+  aboutH2.innerHTML = ('Guilherme Boracini, IT student focusing on <span>WEB Development</span>.');
+  aboutP.innerHTML = (`Graduating in Systems Analysis and Development from <a href="https://www.faculdadevincit.edu.br/" target="_blank">VINCIT</a> College, passionate about creating interactive and visually attractive websites. I'm constantly improving my coding skills, design principles and web development framework.`); 
 /* Graduation */
   gradH2.textContent = ("Graduation");
   gradH3.textContent = ("Feb 2023 - May 2023");
   gradP.textContent = ("Origamid - 46 Hours");
 
   gradHh3.textContent = ('Oct 2022 - Studying');
-  gradHh4.textContent = ('Systems Analysis and Development')
-  gradPp.textContent = ('VINCIT College')
+  gradHh4.textContent = ('Systems Analysis and Development');
+  gradPp.textContent = ('VINCIT College');
+/* Projects */
+  pH1.textContent = ('Projects');
+  PPP.innerHTML = ("A game made completely with <strong>JavaScript</strong>, it simulates a ping-pong table in 2d. Developed in the SamuraiDEV course.");
+
+  BKP.innerHTML = ("Fictitious bicycle website, it was developed with <strong>HTML</strong>, <strong> CSS</strong> and <strong>JavaScript</strong> by the ORIGAMID course.");
+
+  GSP.innerHTML = ("Made using <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>, it generates passwords with uppercase letters, numbers and symbols. Developed in the SamuraiDEV course.");
+
+  HWP.innerHTML = ("Fictitious website of hotels and resorts, it was developed with <strong>HTML</strong> and <strong>TailwindCSS</strong>");
+
+  footerTitle.textContent = ("Contact me");
+
+
 
 });
 /*

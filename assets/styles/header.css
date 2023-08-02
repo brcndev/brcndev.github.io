@@ -54,7 +54,7 @@ h1, p, li {
     border: none;
     color: white;
     cursor: pointer;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 .nav-list {
     display: flex;
