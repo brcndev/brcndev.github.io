@@ -18,19 +18,27 @@
         <nav class="header-content">
            <div class="logo">
             <a href="./"><h1>bora<span>Dev</span></h1></a>
-            </div>
+            </div>           
 
+           <div class="lang">      
+            
+           <div class="lang-btn">
+            <button id="btnEng"><img src="./assets/img/icons/flag-um-svgrepo-com.svg" alt=""></button>  <span>|</span> 
+            <a href=""><button id="btnBr"><img src="./assets/img/icons/flag-for-flag-brazil-svgrepo-com.svg" alt=""></button></a>
+           </div>
+            
             <ul class="nav-list">
-                <li>
-                    <a href="#about">About</a>
+                <li id="ulAbout">
+                    <a href="#about">Sobre</a>
                 </li>
-                <li>
-                    <a href="#projetos">Projects</a>
+                <li id="ulProjects">
+                    <a href="#projects">Projetos</a>
                 </li>
-                <li>
-                    <a href="#contact">Contact</a>
+                <li id="ulContact">
+                    <a href="#contact">Contato</a>
                 </li>
             </ul>
+           </div>
         </nav>
         </header>
 
@@ -42,10 +50,10 @@
 
         <div class="intro-content">
             
-                <span class="intro-myself"> Olá, eu sou o</span>
+                <span class="intro-myself">Olá, eu sou</span>
     
             <h1 class="fadeInLeft" data-anime="400">Guilherme Boracini</h1>
-            <p class="fadeInRight" data-anime="600">Front-End Developer.</p>
+            <p id="devFront" class="fadeInRight" data-anime="600">Desenvolvedor Front-End</p>
             <div class="icons fadeInDown" data-anime="800">
               <a href="https://www.linkedin.com/in/guilherme-boracini-ba2372282/"  target="_blank">
                 
@@ -62,28 +70,28 @@
     <section class="about" id="about" aria-label="Sobre Mim" >
         <div  class="about-content">
             <div class="border" data-anime="right">
-        <h1 >SOBRE</h1>
-        <h2>Guilherme Boracini, estudante de TI com foco em <span>Desenvolvimento WEB</span>.</h2>
-        <p>Graduando em Analise e Desenvolvimento de Sistemas pela Faculdade VINCIT, apaixonado pela criação de sites interativos e visualmente atrativos. Estou constantemente aprimorando minhas habilidades em codificação, princípios de design e frameworks de desenvolvimento web.</p>
+        <h1 id="aboutH1">SOBRE</h1>
+        <h2 id="aboutH2">Guilherme Boracini, estudante de TI com foco em <span>Desenvolvimento WEB</span>.</h2>
+        <p id="aboutP" >Graduando em Análise e Desenvolvimento de Sistemas pela Faculdade VINCIT, apaixonado pela criação de sites interativos e visualmente atrativos. Estou constantemente aprimorando minhas habilidades em codificação, princípios de design e frameworks de desenvolvimento web.</p>
     </div>
 
         <div class="formacao" data-anime="left">
-            <h2>FORMAÇÃO</h2>
+            <h2 id="gradH2">FORMAÇÃO</h2>
             <div class="formacao-details">
-                <h3>fev de 2023 - maio de 2023</h3>
+                <h3 id="gradH3">Fev de 2023 - maio de 2023</h3>
                 <h4>HTML e CSS</h4>
-                <p>Origamid | 46 horas</p>
+                <p id="gradP">Origamid | 46 horas</p>
             </div>
             <div class="formacao-details">
-                <h3>out de 2022 - cursando</h3>
-                <h4>Analise e Desenvolvimento de Sistemas</h4>
-                <p>Faculdade VINCIT.</p>
+                <h3 id="gradHh3">Out de 2022 - Cursando</h3>
+                <h4 id="gradHh4">Análise e Desenvolvimento de Sistemas</h4>
+                <p id="gradPp">Faculdade VINCIT.</p>
             </div>
          </div>
         </div>        
     </section>
 
-    <section class="projects" id="projetos" aria-label="Projetos">
+    <section class="projects" id="projects" aria-label="Projetos">
         <div class="project-content">
                     
                     <h1 data-anime="top">Portfólio</h1>
@@ -147,7 +155,7 @@
     </section>
 
     <footer id="contact" data-anime="top">
-        <h1>Entre em contato!</h1>
+        <h1 id="footerTitle">Entre em contato!</h1>
         <div class="network">
             
             <a href="mailto:boracinidev@gmail.com"  target="_blank">                
@@ -157,8 +165,8 @@
                 <img src="./assets/img/icons/whatsapp-svgrepo-com.svg" alt="whatsapp-icon">
             </a>
             <a href="https://www.linkedin.com/in/guilherme-boracini-ba2372282/"  target="_blank">                
-                <img src="./assets/img/icons/linkedin-with-circle-svgrepo-com.svg" alt="linkedin-icon">
-            </a>
+                <img src="./assets/img/icons/linkedin-with-circle-svgrepo-com.svg" alt="linkedin-icon"> 
+            </a>         
         </div>
     </footer>
 

@@ -12,7 +12,6 @@ h1, p, li {
     padding: 0;
 }
 
-
 .header h1 {
     margin-left: 60px;
     color:var(--cor-p);
@@ -35,6 +34,28 @@ h1, p, li {
     align-items: center;
 }
 
+.lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lang-btn {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+.lang-btn span {
+    color: white;
+    font-size: 1.4rem;
+}
+
+#btnEng, #btnBr{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 4px;
+}
 .nav-list {
     display: flex;
     gap: 20px;
@@ -76,6 +97,12 @@ h1, p, li {
         text-align: center;
         grid-column: 1/-1;
     }
+
+    .lang {
+        display: grid;
+        grid-template-rows: 2;  
+        justify-items: center
+    }   
 
     .nav-list li {
         margin-bottom: 10px;
