@@ -1,5 +1,5 @@
 .about {
-    background:linear-gradient(rgba(20, 20, 20, 1) 0%, rgba(17, 17, 17, 0.8) 75%, rgba(247, 245, 245, 0.8)99%);   
+    background:linear-gradient(rgba(20, 20, 20, 1) 65%, var(--cor-p)80%, rgb(255, 255, 255) 100%);   
 }
 
 .about-content {

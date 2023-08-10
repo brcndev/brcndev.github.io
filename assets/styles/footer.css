@@ -1,5 +1,5 @@
 #contact {
-    background-color: rgba(247, 245, 245, 0.8);
+    background:linear-gradient(rgb(255, 255, 255) 30%, var(--cor-p));
     height: 100px;
     display: flex;
     flex-direction: column;
